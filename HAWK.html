@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hate Alert Watch Keeper</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/favicon.ico" alt="" /></span><span class="title">Kaushik Tandon</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="index.html">Projects</a></li>
+							<li><a href="summers.html">Summers</a></li>
+							<li><a href="activities.html">Activities</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>H.A.W.K. Machine Learning Algorithm for Hate Speech Detection</h1>
+							<h3>
+								<a href="https://docs.google.com/document/d/16Vtm1hZV3C_FfqCl2BhbTb3Y1CYg3pChhlKLBGgGp7w/edit?usp=sharing">Research Paper (2016)</a><br /> 
+								<a href="https://www.googlesciencefair.com/projects/en/2016/e17dab6be80495dcf495a84fd5f411e98d09950f2effa2110fc22ee216dab282" target="_blank" rel="noopener">Google Science Fair Submission</a>
+							</h3>
+							<h5>
+								Awards
+								<ul>
+									<li><span style="font-weight: 400;">Honorable Mention in the Engineering Category at the Synopsys Science Fair</span></li>
+									<li><span style="font-weight: 400;">ASEI Silicon Valley Emerging Technology Certificate of Achievement</span></li>
+								</ul>
+							</h5>
+							<iframe width="100%" height="500" src="https://www.youtube.com/embed/z3WaraBxTNQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<p>HAWK (Hate Alert Watch Keeper) is an automated Machine Learning system that detects hate speech in Internet posts. The American Bar Association defines hate speech as “speech that offends, threatens, or insults groups, based on race, color, religion, national origin, sexual orientation, disability, or other traits.” Unfortunately, hate speech is prominent on the Internet, especially on social media. Hate speech hurts our community by demeaning us and deterring from focus on actual substantive issues.</p>
+							<p>Hate speech is typically threatening, insulting, or offensive language directed towards a target group or individual. To be considered hate speech, there must be a target and directed offensive content. The variations in language allow for practically an infinite number of permutations of target groups and offensive narratives. The multidimensional nature of hate speech does not allow for a simple way to detect all instances of such content.</p>
+							<p>HAWK uses a set of engineered “features” to examine a textual Internet post for the presence of target groups and offensive content. Three commonly used Machine Learning (ML) models were evaluated for their effectiveness in HAWK – Support Vector Machine, Random Forest and Neural Network. Models were trained on a known set of hate speech posts and subsequently cross validated on an unseen test set. On a data set of 512 Internet posts, the Support Vector Machine demonstrated the highest average accuracy of 78%. On a data set of 9673 Twitter posts, the Support Vector Machine had an accuracy of 71%.  HAWK can learn to identify new target groups and new offensive content via additional training data and features.</p>
+							<p>I have developed methods to examine the errors of the system. The most helpful metric I made was q = average count in correct posts / average count in incorrect posts for every feature. If q > 1, then the feature is more prevalent in correct posts. This metric shows which features are driving the accuracy, which is useful for looking for ways to improve.</p>
+							<p>HAWK is a successful working prototype for hate speech detection. HAWK can be used to warn users before they post that their comments contains hateful sentiment, or the user can use HAWK to protect themselves from viewing such content posted by others. This tool can be used for automatic moderation and for screening posts from the general public in Internet forums.</p>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="field half first">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="special" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Links</h2>
+								<ul class="icons">
+									<li><a href="https://www.facebook.com/kaushik.tandon" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="mailto:kaushiktandon@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+									<li><a href="https://github.com/kaushiktandon" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://linkedin.com/in/kaushik-tandon-7a4979117/" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a></li>						
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Kaushik Tandon. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

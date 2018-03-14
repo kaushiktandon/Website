@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>About</title>
+		<title>Smart Fridge of Greatness</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -24,7 +24,7 @@
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/favicon.ico" alt="" /></span><span class="title">About Me</span>
+									<span class="symbol"><img src="images/favicon.ico" alt="" /></span><span class="title">Kaushik Tandon</span>
 								</a>
 
 							<!-- Nav -->
@@ -52,15 +52,13 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Who am I?</h1>
-							<span class="image main"><img src="images/linkedinprofilepic.jpg" alt="" /></span>
-							<font size="+2">
-							<p>I am a computer engineering and computer science student at USC. I graduated Monta Vista High School in Cupertino, California in 2017.</p>
-							<span class="image main"><img src="images/alaska.jpg" alt="" /></span>
-							<p>I have experience with C++, Python, Java, Android, ROS, Javascript, HTML, and CSS. I am interested in getting more into Machine Learning and Artificial Intelligence. Most of all, I love coding!</p>
-							<span class="image main"><img src="images/chewbi.jpg" alt="" /></span>
-							<p>If I'm not working on a cool project, I'm most likely watching a sports game. I'm a big fan of Bay Area sports teams and enjoy following them. I would love to work on a project that combines my passion for coding with sports.<br /> <br />
-								I also love my dog Chewbi! </p> </font>
+							<h1>Smart Fridge Of Greatness</h1>
+							<h3>This project was created for SB Hacks 2018. <a href=https://devpost.com/software/smartfridgeofgreatness>See the devpost here!.</a>
+							</h3>
+							<span class="image main"><img src="images/sbhacks.jpg" alt="" /></span>
+							<p>Smart Fridge of Greatness is an Internet of Things (IOT) based fridge that can suggest recipes based on what is inside of your fridge. When an user wants to know what they can make, they simply take a picture of the contents of their fridge. The system uses a Machine Learning image recognition algorithm to determine the various ingredients and stores it on Firebase. The specific API used is Clairifai, which gives us a list of probabilites of potential classifications. We choose the highest probability as the ingredient. </p>
+							<p>After we parse the ingredients, we use the RecipePuppy API to create a database of recipes on Firebase. This is then turned into a list to be displayed on the Android application for easy browsing. The contents of each individual's fridge are still protected by an authenticated username and password system in order to ensure the safety and privacy of our users. Potential future features would be integrating with Amazon's Alexa so the user could simply ask Alexa "what can I make for dinner". We would also want to limit the potential of blurry or unusable photos.
+							</p>
 						</div>
 					</div>
 

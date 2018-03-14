@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Handwashing Hound</title>
+		<title>Parking Pigeon</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -52,25 +52,27 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Handwashing Hound: Computer Vision System for Monitoring Effective Hand Hygiene</h1>
+							<h1>Parking Pigeon: Application for Enhanced Localization in Multi-Story Parking Lots</h1>
 							<h3>
-								<a href="https://drive.google.com/file/d/0B2zfc1a3nwQZM0pXUHBhdGJmVlU/view?usp=sharing">Research Paper (2015)</a><br /> 
-								<a href="https://www.googlesciencefair.com/projects/en/2015/19ef1540e2dc30b75a87d1da69068f0c10c89c2e53ddae25b10131ab1503cadb">Google Science Fair Submission</a><br />
-								<a href="http://ww2.kqed.org/quest/2016/02/18/top-five-favorites-from-engineerthat/">KQED Article </a><br />
-								<a href="https://docs.google.com/presentation/d/1wtZkPrnzkiA7vujfLBVouXvpSfa_PBCw4yEnbFeGupU/edit?usp=sharing">Google Slides</a><br />
+								<a href="https://drive.google.com/file/d/0B2zfc1a3nwQZUXBjNDNncVMtUWc/view">Research Paper (2015)</a><br /> 
+								<a href="https://www.googlesciencefair.com/projects/en/2014/09d6d82b14745294ec043eb2ff1ecdbf31fc0a39dbdb2ab3a53f125eb1da053a">Google Science Fair Submission</a><br />
+								<a href="http://www.mercurynews.com/2014/11/19/monta-vista-students-parking-pigeon-remembers-vehicles-location/">San Jose Mercury News Article</a><br/>
+								<a href="https://docs.google.com/presentation/d/1TnBgG0uRXjwWBd58JeX_L8nNHOCmGdfiGaiPRqKw9qQ/edit?usp=sharing">Google Slides</a><br />
 							</h3>
 							<h5>
 								Awards
 								<ul>
-									<li><span style="font-weight: 400;">Young Mind Awards Finalist in Research and Development Category</span></li>
-									<li><span style="font-weight: 400;">The Synopsys Outreach Foundation n+1 Prize Finalist</span></li>
-									<li><span style="font-weight: 400;">2nd Place, Engineering Category, Synopsys Science Fair</span></li>
+									<li><span style="font-weight: 400;">Regional Finalist (North and South Americas), Google Science Fair</span></li>
+									<li><span style="font-weight: 400;">Honorable Mention at the California State Science Fair</span></li>
+									<li><span style="font-weight: 400;">1st Place in the Engineering Category at the Synopsys Science Fair</span></li>
+									<li><span style="font-weight: 400;">Congressional App Challenge Achievement Award from Congressman Mike Honda</span></li>
+									<li><span style="font-weight: 400;">Received Fair Manager’s Graphic Design Award for poster</span></li>
 								</ul>
 							</h5>
-							<iframe width="100%" height="500" src="https://www.youtube.com/embed/vxOx5louCtk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-							<iframe width="100%" height="500" src="https://www.youtube.com/embed/yVXQeBxB4ak" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-							<p><strong>Handwashing Hound</strong> is a <strong>computer vision system </strong><strong>for ensuring compliance with the handwashing protocol</strong><strong> specified by the Center for Disease Control (CDC). </strong>Our system uses a <strong>depth camera</strong> to observe a user as they wash their hands. The user's handwashing technique is evaluated by a combination of <strong>four software-based detectors</strong>: a water detector, a hand detector, a detector for hands in the zone below the faucet, and a soapy hand detector. Our system continuously monitors the state of the user’s hands with these detectors. By observing state transitions, our system correctly classifies whether the user is <strong>wetting</strong> their hands, <strong>scrubbing</strong> hands with soap, or <strong>rinsing</strong> their hands. The computer vision algorithm for detecting soapy hands is able to robustly detect the presence of soap bubbles on the hands of multiple users, despite variation in skin color and lighting conditions. The accuracy of our detectors was measured across four users using two different types of soap. The first three detectors were all more than 90% accurate while the soap detector was 82% accurate, on a per frame basis with over 3000 frames. The accuracy results are adequate for the intended purpose, as the system is able to process several frames per second in real time.</p>
-							<p><strong>Handwashing Hound is a successful prototype </strong><strong>and is able to recognize all the stages of the CDC handwashing protocol through the four key detectors. Our system can be used as a compliance tool in the healthcare and food industries, or as an educational tool.</strong></p>
+							<iframe width="100%" height="500" src="https://www.youtube.com/embed/y_MVjBmIXsA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<p>
+								<strong>Parking Pigeon</strong> is an Android smartphone application that determines the parking level of a car in a multi-story parking lot. Our application uses the <strong>smartphone’s built-in pressure sensors</strong> to measure the atmospheric pressure and calculate the altitude of the parked car. Parking Pigeon works in two parts. <strong>First</strong>, when parking the car, the app measures and record the atmospheric pressure of the parking level. It also queries the regional weather station to record the regional pressure. <strong>Second</strong>, at the time of locating the car, it queries a regional weather station to calculate any potential pressure drift due to changes in the weather, applies this pressure drift correction to the current pressure and then based on the pressure difference between the current pressure and the recorded pressure readings, it guides the user how high or low to go to find the parked car.  After running various experiments with numerous smartphones on multiple days at various parking lots, where we compared the application’s predictions to the actual height, we found that the <strong>correlation was greater than 0.99</strong>. The application’s one meter error was found to be insignificant as most parking levels are 3-5 meters tall. <strong>With these results in mind, we knew Parking Pigeon was a success. We used pressure sensors, weather stations and web-query APIs in a novel method and met all our design criteria</strong>. After implementing further advancements to make the application user friendly and more automatic, we will release the Android Application onto the Play Store.
+							</p>
 						</div>
 					</div>
 

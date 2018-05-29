@@ -1,1 +1,3 @@
-https://www.coursera.org/learn/data-science-course/home/week/1
+https://www.coursera.org/learn/data-science-course/home/week/1 done
+https://www.udacity.com/course/intro-to-javascript--ud803 done
+https://www.coursera.org/learn/python-databases/home/welcome in progress
